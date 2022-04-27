@@ -1,8 +1,8 @@
-# Project title: Explore US Bikeshare Data with Pandas in Python
+# Project title: Explore US Bikeshare Data with Pandas in Python (Udacity)
 
 The **project** was created on the **22nd April 2022**, this **README file** was created on the **27th April 2022**.
 
-### Description
+### Project Description
 This project explores a six month long bikeshare dataset from three United States cities (Chicago, Washington, and New York City) using pandas in python.
 
 Each city has the following columns in the dataset:
@@ -18,7 +18,7 @@ However, Chicago and New York City have two additional columns:
 * Gender
 * Birth Year
 
-### The aim of the project: 
+### Project Aim 
 _**To compute statistics given interactive user inputs to filter the data for outputs such as**_:
 
 1. Popular times of travel 
