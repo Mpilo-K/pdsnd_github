@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np 
+# import numpy as np (this module is not used yet, to be used in the near future)
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -9,6 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 MONTH_DATA = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
 DAY_DATA = ['monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday', 'all']
+
 
 def get_filters():
     """
@@ -78,7 +79,6 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.day_name()
     df['start_hour'] = df['Start Time'].dt.hour
     df['end_hour'] = df['End Time'].dt.hour
-
 
     # filter by month if applicable
     if month != 'all':
