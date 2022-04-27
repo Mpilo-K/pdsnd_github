@@ -2,7 +2,7 @@
 
 The **project** was created on the **22nd April 2022**, this **README file** was created on the **27th April 2022**.
 
-### Project Description
+## Project Description
 This project explores a six month long bikeshare dataset from three United States cities (Chicago, Washington, and New York City) using pandas in python.
 
 Each city has the following columns in the dataset:
@@ -18,7 +18,7 @@ However, Chicago and New York City have two additional columns:
 * Gender
 * Birth Year
 
-### Project Aim 
+## Project Aim 
 _**To compute statistics given interactive user inputs to filter the data for outputs such as**_:
 
 1. Popular times of travel 
@@ -43,14 +43,14 @@ _**To compute statistics given interactive user inputs to filter the data for ou
 
 _You can run the script using any **Python integrated development environment (IDE)**, just ensure you have all files in one folder
 
-### Files used
+## Files used
 1. bikeshare_mpilo_khumalo.py 
 2. readme.txt
 3. chicago.csv
 4. washington.csv
 5. new_york_city.csv
 
-### Credits
+## Credits
 Resources used throughout the project:
 1. <https://www.w3schools.com/>
 * To relearn and practive basic Python coding skills
